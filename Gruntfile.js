@@ -129,6 +129,10 @@ module.exports = function(grunt) {
                 /textsecure-service-staging.whispersystems.org/g,
                 'textsecure-service-ca.whispersystems.org');
             } else if (srcpath.match('expire.js')) {
+              // This is an auto-expiration feature which makes the code
+              // fail unless it's been updated within a certain amount of time
+              // lets remove it since the chrome extension is currently undeveloped.
+              return content;
               var gitinfo = grunt.config.get('gitinfo');
               var commited = gitinfo.local.branch.current.lastCommitTime;
               var time = Date.parse(commited) + 1000 * 60 * 60 * 24 * 90;
