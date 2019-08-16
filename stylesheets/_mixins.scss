@@ -33,6 +33,7 @@
   &.blue_grey   { background-color: $material_blue_grey   ; }
   &.grey        { background-color: #999999               ; }
   &.default     { background-color: $blue                 ; }
+  &.brown       { background-color: $material_brown       ; }
 }
 @mixin dark-avatar-colors {
   &.red         { background-color: $dark_material_red         ; }
@@ -52,6 +53,7 @@
   &.blue_grey   { background-color: $dark_material_blue_grey   ; }
   &.grey        { background-color: #666666               ; }
   &.default     { background-color: $blue                 ; }
+  &.brown       { background-color: $material_brown       ; }
 }
 @mixin invert-text-color {
   color: white;

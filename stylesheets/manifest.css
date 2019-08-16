@@ -252,6 +252,8 @@ button.hamburger {
     background-color: #999999; }
   .avatar.default {
     background-color: #2090ea; }
+  .avatar.brown {
+    background-color: #746c53; }
 
 .group-info-input {
   background: white; }
@@ -2224,6 +2226,8 @@ li.entry .error-icon-container {
   background-color: #999999; }
 .android .conversation-header.default, .android .bubble.default {
   background-color: #2090ea; }
+.android .conversation-header.brown, .android .bubble.brown {
+  background-color: #746c53; }
 .android .bottom-bar {
   min-height: 10px; }
 .android .bubble {
@@ -2458,6 +2462,8 @@ li.entry .error-icon-container {
     background-color: #666666; }
   .android-dark .avatar.default, .android-dark .conversation-header.default, .android-dark .bubble.default {
     background-color: #2090ea; }
+  .android-dark .avatar.brown, .android-dark .conversation-header.brown, .android-dark .bubble.brown {
+    background-color: #746c53; }
   .android-dark .message-list .advisory .content {
     background-color: #333333; }
   .android-dark .message-list .advisory .shield {
